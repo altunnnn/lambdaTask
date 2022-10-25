@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> name = Arrays.asList("Mehemmed", "Eli", "Akr");
+        List<String> name = Arrays.asList("Mehemmed", "Eli", "Akra");
         List result = name.stream().filter(s -> s.startsWith("E")).collect(Collectors.toList());
         System.out.println(result);
 
